@@ -133,4 +133,4 @@ continuation_ns = note_seq.concatenate_sequences([primer_ns, ns])
 # Play and plot.
 
 note_seq.sequence_proto_to_midi_file(
-  continuation_ns, 'continuation.mid')
+  continuation_ns, '/content/continuation.mid')

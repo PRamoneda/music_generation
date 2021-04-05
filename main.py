@@ -27,7 +27,7 @@ def decode(ids, encoder):
     return encoder.decode(ids)
 
 
-print("Setting Transformer....", sep="")
+print("Setting Transformer....")
 f = open(os.devnull, 'w')
 old_stdout = sys.stdout
 old_stderr = sys.stderr
